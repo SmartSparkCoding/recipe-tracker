@@ -1,0 +1,4 @@
+- Created Logo, added to site
+- Followed anchor tutorial - no icons used
+- Same color palette
+- took about 15 minutes for very simple logo
