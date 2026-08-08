@@ -3,15 +3,17 @@
   <head>
     <title>Home - Jacob's Recipe Tracker</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>Jacob's Recipe Tracker</h1>
       <nav>
         <ul>
+          <li class="title">
+            <a href="home.html">Jacob's Recipe Tracker</a>
+          </li>
           <li><a href="index.html">Home</a></li>
-          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="home.html" class="active">Recipes</a></li>
           <li><a href="about.html">About Me!</a></li>
         </ul>
       </nav>
@@ -19,8 +21,20 @@
 
     <section id="recipes">
       <h2>The Recipe Book:</h2>
-
-      <div id="recipes-container"></div>
+      <div class="recipe-card">
+        <h1>Recipe!!</h1>
+        <h2>Prep: 10 mins | Cook: 20 mins</h2>
+        <br />
+        <p>
+          <strong>Ingredients:</strong> 1 cup flour, 2 eggs, 1/2 cup sugar, 1/4
+          cup milk
+        </p>
+        <br />
+        <p>
+          <strong>Instructions:</strong> Mix all ingredients together and bake
+          for 20 minutes.
+        </p>
+      </div>
     </section>
   </body>
 </html>

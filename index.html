@@ -3,11 +3,29 @@
   <head>
     <title>Home - Jacob's Recipe Tracker</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>Jacob's Recipe Tracker</h1>
+      <nav>
+        <ul>
+          <li class="title">
+            <a href="home.html">Jacob's Recipe Tracker</a>
+          </li>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="home.html">Recipes</a></li>
+          <li><a href="about.html">About Me!</a></li>
+        </ul>
+      </nav>
     </header>
+    <p>
+      Welcome to my recipe tracker! Here you can find all of my favorite
+      recipes, as well as some new ones that I am trying out. Feel free to
+      browse through the recipes and let me know what you think!
+    </p>
+    <br />
+    <button onclick="window.location.href = 'home.html'">
+      Open the Recipe Book!
+    </button>
   </body>
 </html>

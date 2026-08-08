@@ -5,6 +5,8 @@
 **Files Created**: `DevLogs/Log 1.md`, `home.html`, `index.html`, `styles.css`
 **Date + Time**: 8 August 2026 @ 12:25
 
+## Dev Log
+
 - Created main HTML outline.
 - Added the 'Bento' Lid, `index.html` welcomes users to the Recipe Tracker
 - Bento Lid counts as the first 'Divider'
