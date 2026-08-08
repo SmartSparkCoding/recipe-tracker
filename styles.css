@@ -1,7 +1,50 @@
 body {
-  background: white;
+  background: #f7f3ea;
+  color: #2b2a26;
   cursor: default;
+  margin: 0;
   padding-top: 64px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.hero-content {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  padding: 0 16px;
+}
+
+.hero-content p {
+  max-width: 640px;
+  margin: 0;
+  font-size: 30px;
+  color: #2b2a26;
+}
+
+.hero-content button {
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #c96b3b, #b85a32);
+  color: #fffaf4;
+  cursor: pointer;
+  box-shadow: 0 10px 24px rgba(43, 42, 38, 0.12);
+}
+
+.hero-content button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 28px rgba(43, 42, 38, 0.16);
+  filter: brightness(1.03);
+}
+
+.hero-content button:active {
+  transform: translateY(0);
 }
 
 nav {
@@ -16,7 +59,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
+  background-color: #2f2a24;
   display: flex;
   justify-content: flex-end;
   align-items: stretch;
@@ -35,7 +78,7 @@ ul li {
 .title a {
   display: flex;
   align-items: center;
-  color: white;
+  color: #fffaf4;
   font-size: 25px;
 }
 
@@ -43,7 +86,7 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #fffaf4;
   padding: 0 16px;
   text-decoration: none;
   font-size: 18px;
@@ -52,9 +95,38 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: #463f37;
 }
 
 ul li a.active {
-  background-color: #4caf50;
+  background-color: #e7b44c;
+  color: #2b2a26;
+}
+#recipe-title {
+  text-align: center;
+  margin: 15px;
+  color: #2b2a26;
+}
+
+.recipe-card {
+  margin: 15px;
+  border: 1px solid #d9cdbb;
+  border-radius: 14px;
+  padding: 16px;
+  background-color: #fffdf8;
+  box-shadow: 0 8px 20px rgba(43, 42, 38, 0.12);
+}
+
+.recipe-card h2,
+h3 {
+  text-align: right;
+  padding-right: 10px;
+  color: #2b2a26;
+}
+
+.recipe-card p {
+  text-align: left;
+  padding-left: 10px;
+  font-size: 18px;
+  color: #6f675c;
 }
